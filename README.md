@@ -6,6 +6,15 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Environment
+NodeJs: 16.20.2
+MongoDB: 7.0.2
+
+## Test Account
+User: Jerry
+password: 123456
+You can use signup API to register your test account.
+
 ## Installation
 
 ```bash
@@ -13,15 +22,6 @@ $ yarn install
 ```
 
 ## Running the app
-
-# Environment
-NodeJs: 16.20.2
-MongoDB: 7.0.2
-
-# Test Account
-User: Jerry
-password: 123456
-You can use signup API to register your test account.
 
 ```bash
 # development
