@@ -1,12 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { HttpException, INestApplication, UnauthorizedException } from '@nestjs/common';
 import * as request from 'supertest';
-import { AuthModule } from '../src/auth/auth.module';
-import { MongooseModule } from '@nestjs/mongoose';
-import { UsersModule } from '../src/users/users.module';
 import { AppModule } from '../src/app.module';
-import { log } from 'console';
-import { async } from 'rxjs';
 
 describe('AuthController (e2e)', () => {
   let app: INestApplication;
